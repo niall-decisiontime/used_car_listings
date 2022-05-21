@@ -31,7 +31,11 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('costing_API/',      'rest_api/Costing_API::index');
+$routes->post('costing_API/',      'rest_api/Costing_API::get_listing_cost');
+$routes->put('costing_API/',      'rest_api/Costing_API::put');
+$routes->patch('costing_API/',      'rest_api/Costing_API::patch');
+$routes->delete('costing_API/',      'rest_api/Costing_API::delete');
 
 /*
  * --------------------------------------------------------------------
