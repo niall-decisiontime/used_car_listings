@@ -31,6 +31,7 @@ If you need to set up MySQL, you can download it here: https://www.mysql.com/dow
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;```
 
 5. When this table has been created, run the following sql insert: 
+
 ```sql
 INSERT INTO `car_listings` (`make`, `model`, `reg`, `year`, `mileage`, `price`, `listing_expiry`)
 VALUES
@@ -40,7 +41,7 @@ VALUES
 	('Vauxhall', 'Astra', 'LFZ9901', 2011, 76000, 700, '2022-05-30'),
 	('BMW', '8 Series', 'PGZ8808', 2022, 700, 66000, '2022-06-02'),
 	('Mercedes', 'A Class', 'NYZ7011', 2014, 37000, 1400, '2022-06-03');
-````
+```
 6.  Via the command line, cd into the directory where this project sits and run the spark command to get the localhost running. My folder structure is Projects > used_car_listings, so I will run the commands:
 - `cd Projects`
 - `cd used_car_listings`
