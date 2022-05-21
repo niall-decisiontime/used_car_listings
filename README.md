@@ -12,6 +12,12 @@ This is built in Codeigniter 4, which has an in built server we can use, so no n
 You will need to have a working local MySQL database to serve this programme.
 If you need to set up MySQL, you can download it here: https://www.mysql.com/downloads/
 
+# This is how the interface should look once set up is complete:
+
+![Screenshot 2022-05-21 at 15 47 13](https://user-images.githubusercontent.com/55992683/169656830-a8975817-89ae-4a78-a047-09b1dab3b038.png)
+
+
+
 # Steps to set up project
 
 1. Copy this repository code to your machine. 
