@@ -42,9 +42,9 @@ VALUES
 	('Mercedes', 'A Class', 'NYZ7011', 2014, 37000, 1400, '2022-06-03');
 ````
 6.  Via the command line, cd into the directory where this project sits and run the spark command to get the localhost running. My folder structure is Projects > used_car_listings, so I will run the commands:
-`cd Projects `
-`cd used_car_listings`
-`php spark serve`
+- `cd Projects`
+- `cd used_car_listings`
+- `php spark serve`
 7. You should now be able to access the site via: http://localhost:8080/
 8. When you go to this URL you will see a list of cars an their details
 9. Clicking the blue `Check Listing Fee` button will hit the `Costing_API` and return the listing fee for the vehicle in an alert box.
