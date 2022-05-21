@@ -16,7 +16,7 @@ If you need to set up MySQL, you can download it here: https://www.mysql.com/dow
 
 1. Copy this repository code to your machine. 
 2. Link your database, the project is currently set up for the default local user (username: root, password: 'password'). You can edit the credentials in the Config > Database.php file. Line 33 in this file is where you will see the database credentials.
-3. In your local database you will need to have a `used_cars` schema. Set this up.
+3. In your local database you will need to have a `used_cars` database. Set this up.
 4. In this schema, run the following command
 
 ```sql 
