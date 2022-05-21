@@ -68,11 +68,16 @@ VALUES
 
 ![Screenshot 2022-05-21 at 14 50 11](https://user-images.githubusercontent.com/55992683/169654663-f5252493-4934-400e-a3a1-974f9beda9b4.png)
 
-5. car_reg = OFF8781, car_price = : Expect 400 status code and the msg: "There must be a valid car price and registration. Please try again"
+5.  car_reg = YFZ8981, car_price = Two thousand: Expect 400 status code and the msg: "The car price must be entered as a number"
+
+<img width="1405" alt="Screenshot 2022-05-21 at 15 42 19" src="https://user-images.githubusercontent.com/55992683/169656667-48414737-7aef-495e-bdac-3c5042516276.png">
+
+
+6. car_reg = OFF8781, car_price = : Expect 400 status code and the msg: "There must be a valid car price and registration. Please try again"
 
 ![Screenshot 2022-05-21 at 14 52 11](https://user-images.githubusercontent.com/55992683/169654744-7cb1f904-c563-45bd-8b04-170d191b3f2b.png)
 
-6. car_reg = , car_price = : Expect 400 status code and the msg: "There must be a valid car price and registration. Please try again"
+7. car_reg = , car_price = : Expect 400 status code and the msg: "There must be a valid car price and registration. Please try again"
 
 ![Screenshot 2022-05-21 at 14 53 20](https://user-images.githubusercontent.com/55992683/169654783-762cdfa8-e525-455c-a87f-99e5cb281f70.png)
 
