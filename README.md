@@ -30,7 +30,8 @@ CREATE TABLE `car_listings` (
   `price` int DEFAULT NULL,
   `listing_expiry` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;```
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+```
 
 5. When this table has been created, run the following sql insert: 
 
