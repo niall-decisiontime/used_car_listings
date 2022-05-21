@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => 'password',
-        'database' => '',
+        'database' => 'used_cars',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
