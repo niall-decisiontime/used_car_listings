@@ -175,7 +175,7 @@
 
     <div class="heroe">
 
-      <h1>Welcome to Niall's used Cars! <small> - powered by codeigniter</small></h1>
+      <h1>Welcome to Niall's used Cars! <small> - powered by codeigniter 4</small></h1>
 
       <h2>The small framework with powerful features</h2>
 
